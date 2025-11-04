@@ -253,6 +253,15 @@ AimWare V6中文教程
             Anti-Recoil - 自动压枪
             Anti-Spread - 扩散预测
 
+        Hitboxes - 扳机部位
+            开火模式
+                Lethal - 致命
+                Auto - 自动
+                Any - 任意
+                Ignore - 忽略
+            PS: Any和Auto区别不大
+
+
 暴力 - Ragebot
 
 
