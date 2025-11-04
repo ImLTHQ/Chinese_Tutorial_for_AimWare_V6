@@ -99,7 +99,43 @@
 
 ## 视觉
 
-*省略*
+### 分类
+- **Enemy** - 敌人
+- **Team** - 队友
+- **Weapon** - 武器
+- **Local** - 自身
+
+### Overlay
+- **Box** - 方框
+- **Ammo** - 弹药
+- **Health** - 血量
+- **Name** - 名字
+- **Skeleton** - 骨骼
+- **Armor** - 护甲
+- **Money** - 金钱
+- **Ping** - 延迟
+- **Flags** - 状态
+- **Barrel** - 视线
+- **Weapon** - 武器
+
+### Chams
+- **Model Visible** - 可见模型
+- **Model Occluded** - 被遮挡模型
+- **Model Glow** - 模型发光
+- **Attachments Visible** - 武器可见
+- **Attachments Occluded** - 武器遮挡
+- **Ragdoll Visible** - 布娃娃可见
+- **Ragdoll Occluded** - 布娃娃遮挡
+- **Weapon Visible** - 武器可见
+- **Arms Visible** - 手臂可见
+
+#### 材质
+- **Flat** - 平面
+- **Textured** - 纹理
+- **Glow** - 发光
+- **Plastic** - 塑料
+- **Metallic** - 金属
+- **Off** - 关闭
 
 ## 合法
 

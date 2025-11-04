@@ -92,10 +92,11 @@ AimWare V6中文教程
 
 
 视觉 - Visuals
-    Enemy - 敌人
-    Team - 队友
-    Weapon - 武器
-    Local - 自身
+    分类
+        Enemy - 敌人
+        Team - 队友
+        Weapon - 武器
+        Local - 自身
 
     Overlay
         Box - 方框
