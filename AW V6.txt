@@ -261,6 +261,43 @@ AimWare V6中文教程
                 Ignore - 忽略
             PS: Any和Auto区别不大
 
+    Weapon - 武器数值
+        Recoil Control System - 压枪
+            Aiming - 自瞄时压枪
+            Aiming and Standalone - 开火时压枪
+
+        Horizontal Recoil - 水平后坐力
+
+        Vertical Recoil - 垂直后坐力
+
+        Minimum FOV Range - 最小自瞄范围
+
+        Maximum FOV Range - 最大自瞄范围
+
+        Non-Sticky Target - 目标超出最大视野范围后取消自瞄
+
+        Target Switch Delay - 目标切换延迟
+
+        First Shot Delay - 首次开火延迟
+
+        Smooth Factor - 平滑系数
+
+        Smooth Method
+            Dynamic - 动态
+            Static - 静态
+
+        Randomize Factor - 随机系数
+            增加自瞄的随机性
+            数值越高, 自瞄的随机抖动越大
+
+        Curve Factor - 曲线系数
+            自瞄的非线性程度
+            模拟更贴近真实操作的瞄准轨迹
+
+        Auto Wall - 自动穿墙
+
+        Through Smoke - 穿烟
+
 
 暴力 - Ragebot
 
