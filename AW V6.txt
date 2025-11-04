@@ -1,5 +1,16 @@
 AimWare V6中文教程
+
 有更新请发issue提醒, 我会及时修改
+
+
+目录
+    设置与参数
+    杂项
+    视觉
+    世界
+    合法
+    暴力
+
 
 设置与参数
     设置
@@ -88,7 +99,7 @@ AimWare V6中文教程
         速度过低(50%及以下)直接不动
         等修复吧
     Quick Stop - 快速急停
-        也是坏的等修
+        坏的等修
 
 
 视觉 - Visuals
@@ -156,7 +167,49 @@ AimWare V6中文教程
         No Scope Overlay - 移除开镜移动的准星虚化
         No Sky - 移除天空
 
-    Night Mode - 省略
+    Night Mode - 夜间模式
+        无效功能
+
+    Wallbang Info - 穿墙信息
+        Damage - 伤害
+        Circle - 圆圈
+        Crosshair - 准星
+
+    Out of View - 指示视野外敌人
+        Arrow - 箭头
+        Arrow + Info - 箭头 + 信息
+        Off - 关闭
+    
+    Out of View Scale - 指示器距离准星距离
+
+    Inferno - 火焰指示器
+        Local - 自身
+        Friendly - 队友
+        Enemy - 敌人
+
+    Smoke - 烟雾指示器
+
+    Grenade Tracer - 投掷物抛物线
+        Local - 自身
+        Friendly - 队友
+        Enemy - 敌人
+        Color Fade - 颜色渐变
+
+    Grenade Warning - 投掷物警告
+        Local - 自身
+        Friendly - 队友
+        Enemy - 敌人
+
+    Hit Effects - 击中效果
+        Sound - 声音
+        Marker - 击中点
+
+    Damage Indicator - 击中伤害显示
+
+    Bullet Tracers - 子弹轨迹
+        Local - 自身
+        Friendly - 队友
+        Enemy - 敌人
 
 
 合法 - Legitbot

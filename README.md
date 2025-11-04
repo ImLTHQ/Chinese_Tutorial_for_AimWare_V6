@@ -2,187 +2,214 @@
 
 > 有更新请发 issue 提醒，我会及时修改
 
+## 目录
+
+- [设置与参数](#设置与参数)
+- [杂项](#杂项)
+- [视觉](#视觉)
+- [世界](#世界)
+- [合法](#合法)
+- [暴力](#暴力)
+
 ## 设置与参数
 
 ### 设置
 
-- **DPI Scale** - 调整UI大小
+- **DPI Scale** - 调整 UI 大小
 - **Theme** - 主题
 - **Menu Key** - 菜单开关绑定
 - **Console Key** - 控制台开关绑定
 - **Show Binds** - 显示按键绑定
-  - Vars变量名
-  - Names名称
-  - Shot Names短名
-  - Off关闭
+  - Vars - 变量名
+  - Names - 名称
+  - Shot Names - 短名
+  - Off - 关闭
 
-### 参数 - Configurations
+### 参数 (Configurations)
 
-- 圆圈箭头 - 刷新
-- 加号 - 创建参数
-- 三角 - 加载参数
-- 软盘 - 保存参数
-- 勾 - 设置注入自动加载
-- 左箭头 - 从剪贴板导入
-- 右箭头 - 导出到剪贴板
-- 垃圾桶 - 删除
+- **圆圈箭头** - 刷新
+- **加号** - 创建参数
+- **三角** - 加载参数
+- **软盘** - 保存参数
+- **勾** - 设置注入自动加载
+- **左箭头** - 从剪贴板导入
+- **右箭头** - 导出到剪贴板
+- **垃圾桶** - 删除
 
 ### 按键绑定
 
-- **圆角矩形** - 按住时启用
-- **右键开关或条**
-  - **Bind Hold** - 按住时启用
-    - Select on press option - 按住时的值
-    - Select on release option - 松开时的值
-  - **Bind Toggle** - 按键开关切换
-    - Select on toggle option - 打开时的值
-    - Select on untoggle option - 关闭时的值
+#### 圆角矩形
+- 按住时启用
 
-## 杂项 - Miscellaneous
+#### 右键开关或条
+- **Bind Hold** 为按住时启用
+  - Select on press option - 按住时的值
+  - Select on release option - 松开时的值
 
-### Secure Mode
-- 帮你关掉一些VAC风险高的选项
-- 目前默认的Strict模式是不允许开启自瞄和扳机的，如果要玩得调成On
-- 如果要玩HvH服务器需要把它改成Off
+- **Bind Toggle** 为按键开关切换
+  - Select on toggle option - 打开时的值
+  - Select on untoggle option - 关闭时的值
 
-### Chat Spam
-- 自动发送AW的广告
+## 杂项 (Miscellaneous)
 
-### Auto-Accept Match
-- 自动准备
-- AW是最后一个准备（就是9个人点准备才自动准备）
+- **Secure Mode**
+  - 帮你关掉一些 VAC 风险高的选项
+  - 目前默认的 Strict 模式是不允许开启自瞄和扳机的，如果要玩得调成 On
+  - 如果要玩 HvH 服务器需要把它改成 Off
 
-### Preserve Killfeed
-- 保留击杀记录
-- 包括自己造成的击杀和自己被谁击杀
+- **Chat Spam** - 自动发送 AW 的广告
 
-### Show Spectators
-- 显示观战者
+- **Auto-Accept Match** - 自动准备
+  - AW 是最后一个准备（就是 9 个人点准备才自动准备）
 
-### Anti-OBS
-- 绕过录屏软件
-- 录屏软件不显示外挂界面
-- 目前无效
+- **Preserve Killfeed** - 保留击杀记录
+  - 包括自己造成的击杀和自己被谁击杀
 
-### Show Watermark
-- 显示AW水印
+- **Show Spectators** - 显示观战者
 
-### Quick Plant
-- 快速下包
-- 测试下来没什么用
+- **Anti-OBS** - 绕过录屏软件
+  - 录屏软件不显示外挂界面
+  - 目前无效
 
-### Log
-- 显示日志
-- 包括AW控制台、玩家购买、造成伤害
+- **Show Watermark** - 显示 AW 水印
 
-### Auto Strafe
-- 自动转向
-- 与Auto Jump搭配提高空中速度
+- **Quick Plant** - 快速下包
+  - 测试下来没什么用
 
-### Auto Jump
-- 自动连跳
-- Leigt是合法连跳
-- Perfect是完美连跳
-- Off为关闭
+- **Log** - 显示日志
+  - 包括 AW 控制台、玩家购买、造成伤害
 
-### Edge Jump
-- 按住时在边缘自动跳跃
+- **Auto Strafe** - 自动转向
+  - 与 Auto Jump 搭配提高空中速度
 
-### Slow Walk
-- 按住时以设定速度慢走
-- 速度过低（50%及以下）直接不动
-- 等修复吧
+- **Auto Jump** - 自动连跳
+  - Leigt - 合法连跳
+  - Perfect - 完美连跳
+  - Off - 关闭
 
-### Quick Stop
-- 快速急停
-- 也是坏的等修
+- **Edge Jump** - 边缘跳跃
+  - 按住时在边缘自动跳跃
 
-## 视觉 - Visuals
+- **Slow Walk** - 慢走
+  - 按住时以设定速度慢走
+  - 速度过低（50% 及以下）直接不动
+  - 等修复吧
+
+- **Quick Stop** - 快速急停
+  - 坏的等修
+
+## 视觉 (Visuals)
 
 ### 分类
-- **Enemy** - 敌人
-- **Team** - 队友
-- **Weapon** - 武器
-- **Local** - 自身
+- Enemy - 敌人
+- Team - 队友
+- Weapon - 武器
+- Local - 自身
 
 ### Overlay
-- **Box** - 方框
-- **Ammo** - 弹药
-- **Health** - 血量
-- **Name** - 名字
-- **Skeleton** - 骨骼
-- **Armor** - 护甲
-- **Money** - 金钱
-- **Ping** - 延迟
-- **Flags** - 状态
-- **Barrel** - 视线
-- **Weapon** - 武器
+- Box - 方框
+- Ammo - 弹药
+- Health - 血量
+- Name - 名字
+- Skeleton - 骨骼
+- Armor - 护甲
+- Money - 金钱
+- Ping - 延迟
+- Flags - 状态
+- Barrel - 视线
+- Weapon - 武器
 
 ### Chams
-- **Model Visible** - 可见模型
-- **Model Occluded** - 被遮挡模型
-- **Model Glow** - 模型发光
-- **Attachments Visible** - 武器可见
-- **Attachments Occluded** - 武器遮挡
-- **Ragdoll Visible** - 布娃娃可见
-- **Ragdoll Occluded** - 布娃娃遮挡
-- **Weapon Visible** - 武器可见
-- **Arms Visible** - 手臂可见
+- Model Visible - 可见模型
+- Model Occluded - 被遮挡模型
+- Model Glow - 模型发光
+- Attachments Visible - 武器可见
+- Attachments Occluded - 武器遮挡
+- Ragdoll Visible - 布娃娃可见
+- Ragdoll Occluded - 布娃娃遮挡
+- Weapon Visible - 武器可见
+- Arms Visible - 手臂可见
 
 #### 材质
-- **Flat** - 平面
-- **Textured** - 纹理
-- **Glow** - 发光
-- **Plastic** - 塑料
-- **Metallic** - 金属
-- **Off** - 关闭
+- Flat - 平面
+- Textured - 纹理
+- Glow - 发光
+- Plastic - 塑料
+- Metallic - 金属
+- Off - 关闭
 
-## 世界 - World
+## 世界 (World)
 
-### Third Person Enable
-- 第三人称开关
+- **Third Person Enable** - 第三人称开关
+- **Third Person Distance** - 第三人称距离
+- **View FOV** - 第一人称视野大小
+- **Viewmodel FOV** - 手臂距离
+- **Radar** - 雷达
+- **Visualize Aimbot** - 显示瞄准点
+  - peek 前可视化自瞄命中位置
+- **Crosshair** - 准星
+- **Crosshair Recoil** - 后坐力与扩散显示
 
-### Third Person Distance
-- 第三人称距离
+### Effects Removal - 移除
+- No Flash - 移除闪光
+- No Smoke - 移除烟雾
+- No Recoil - 移除后坐抖动
+- No Scope - 移除开镜放大
+- No Scope Overlay - 移除开镜移动的准星虚化
+- No Sky - 移除天空
 
-### View FOV
-- 第一人称视野大小
+- **Night Mode** - 夜间模式
+  - 无效功能
 
-### Viewmodel FOV
-- 手臂距离
+- **Wallbang Info** - 穿墙信息
+  - Damage - 伤害
+  - Circle - 圆圈
+  - Crosshair - 准星
 
-### Radar
-- 雷达
+- **Out of View** - 指示视野外敌人
+  - Arrow - 箭头
+  - Arrow + Info - 箭头 + 信息
+  - Off - 关闭
 
-### Visualize Aimbot
-- 显示瞄准点
-- peek前可视化自瞄命中位置
+- **Out of View Scale** - 指示器距离准星距离
 
-### Crosshair
-- 准星
+- **Inferno** - 火焰指示器
+  - Local - 自身
+  - Friendly - 队友
+  - Enemy - 敌人
 
-### Crosshair Recoil
-- 后坐力与扩散显示
+- **Smoke** - 烟雾指示器
 
-### Effects Removal
-- **No Flash** - 移除闪光
-- **No Smoke** - 移除烟雾
-- **No Recoil** - 移除后坐抖动
-- **No Scope** - 移除开镜放大
-- **No Scope Overlay** - 移除开镜移动的准星虚化
-- **No Sky** - 移除天空
+- **Grenade Tracer** - 投掷物抛物线
+  - Local - 自身
+  - Friendly - 队友
+  - Enemy - 敌人
+  - Color Fade - 颜色渐变
 
-### Night Mode
-- 省略
+- **Grenade Warning** - 投掷物警告
+  - Local - 自身
+  - Friendly - 队友
+  - Enemy - 敌人
 
-## 合法 - Legitbot
+- **Hit Effects** - 击中效果
+  - Sound - 声音
+  - Marker - 击中点
 
-*内容待补充*
+- **Damage Indicator** - 击中伤害显示
 
-## 暴力 - Ragebot
+- **Bullet Tracers** - 子弹轨迹
+  - Local - 自身
+  - Friendly - 队友
+  - Enemy - 敌人
 
-*内容待补充*
+## 合法 (Legitbot)
+
+> 内容待补充
+
+## 暴力 (Ragebot)
+
+> 内容待补充
 
 ---
 
-最后更新：2025-11-04
+*最后更新：2025-11-04*
