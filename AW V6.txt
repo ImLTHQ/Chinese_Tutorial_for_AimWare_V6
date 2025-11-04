@@ -50,44 +50,44 @@ AimWare V6中文教程
         帮你关掉一些VAC风险高的选项
         目前默认的Strict模式是不允许开启自瞄和扳机的, 如果要玩得调成On
         如果要玩HvH服务器需要把它改成Off
-    Chat Spam
-        自动发送AW的广告
-    Auto-Accept Match
-        自动准备
+
+    Chat Spam - 自动发送AW的广告
+
+    Auto-Accept Match - 自动准备
         AW是最后一个准备(就是9个人点准备才自动准备)
-    Preserve Killfeed
-        保留击杀记录
+
+    Preserve Killfeed - 保留击杀记录
         包括自己造成的击杀和自己被谁击杀
-    Show Spectators
-        显示观战者
-    Anti-OBS
-        绕过录屏软件
+
+    Show Spectators - 显示观战者
+
+    Anti-OBS - 绕过录屏软件
         录屏软件不显示外挂界面
         目前无效
-    Show Watermark
-        显示AW水印
-    Quick Plant
-        快速下包
+
+    Show Watermark - 显示AW水印
+
+    Quick Plant - 快速下包
         测试下来没什么用
-    Log
-        显示日志
+
+    Log - 显示日志
         包括AW控制台, 玩家购买, 造成伤害
-    Auto Strafe
-        自动转向
+
+    Auto Strafe - 自动转向
         与Auto Jump搭配提高空中速度
-    Auto Jump
-        自动连跳
-        Leigt是合法连跳
-        Perfect是完美连跳
-        Off为关闭
-    Edge Jump
+
+    Auto Jump - 自动连跳
+        Leigt - 合法连跳
+        Perfect - 完美连跳
+        Off - 关闭
+
+    Edge Jump - 边缘跳跃
         按住时在边缘自动跳跃
-    Slow Walk
+    Slow Walk - 慢走
         按住时以设定速度慢走
         速度过低(50%及以下)直接不动
         等修复吧
-    Quick Stop
-        快速急停
+    Quick Stop - 快速急停
         也是坏的等修
 
 
@@ -131,7 +131,8 @@ AimWare V6中文教程
 
 
 世界 - World
-
+    Third Person Enable - 第三人称开关
+    
 
 合法 - Legitbot
 
