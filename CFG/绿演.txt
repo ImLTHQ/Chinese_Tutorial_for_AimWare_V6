@@ -768,4 +768,5 @@ world.wallbanginfo.crosshair "Off"
 world.wallbanginfo.dmg "Off"
 unbindall
 bindhold "Mouse5" esp.master "off" "on" 0
+bindhold "Mouse5" world.crosshair "Off" "On" 1
 unalias
