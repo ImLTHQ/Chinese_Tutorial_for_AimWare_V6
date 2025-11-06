@@ -206,8 +206,8 @@ lbot.aim.hitbox.rifle.nearest "On"
 lbot.aim.hitbox.scout.hitbox 1 1 1 1 1 1 1 1 
 lbot.aim.hitbox.scout.hitboxstep 4
 lbot.aim.hitbox.scout.nearest "On"
-lbot.aim.hitbox.shared.hitbox 4 1 1 1 1 1 1 1 
-lbot.aim.hitbox.shared.hitboxstep 2
+lbot.aim.hitbox.shared.hitbox 1 1 1 1 1 1 1 1 
+lbot.aim.hitbox.shared.hitboxstep 4
 lbot.aim.hitbox.shared.nearest "Off"
 lbot.aim.hitbox.shotgun.hitbox 1 1 1 1 1 1 1 1 
 lbot.aim.hitbox.shotgun.hitboxstep 4
