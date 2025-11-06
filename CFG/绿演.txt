@@ -1,7 +1,9 @@
 adv.binds "Off"
 adv.conkey 46
 adv.dpi "100% (default)"
+adv.hints "On"
 adv.menukey 45
+adv.opacity 75
 adv.theme "Dark"
 bind 295 0
 con 2 599
@@ -312,7 +314,7 @@ lbot.weapon.accuracy.rifle.vrecoil 100
 lbot.weapon.accuracy.scout.hrecoil 100
 lbot.weapon.accuracy.scout.rcs "Aiming and Standalone"
 lbot.weapon.accuracy.scout.vrecoil 100
-lbot.weapon.accuracy.shared.hrecoil 50
+lbot.weapon.accuracy.shared.hrecoil 75
 lbot.weapon.accuracy.shared.rcs "Aiming and Standalone"
 lbot.weapon.accuracy.shared.vrecoil 100
 lbot.weapon.accuracy.shotgun.hrecoil 0
@@ -404,7 +406,7 @@ lbot.weapon.target.scout.minfov 0
 lbot.weapon.target.scout.nst "Off"
 lbot.weapon.target.scout.tsd 0
 lbot.weapon.target.shared.fsd 300
-lbot.weapon.target.shared.maxfov 1
+lbot.weapon.target.shared.maxfov 2.5
 lbot.weapon.target.shared.minfov 0
 lbot.weapon.target.shared.nst "Off"
 lbot.weapon.target.shared.tsd 300
