@@ -1,7 +1,9 @@
 adv.binds "Off"
 adv.conkey 46
 adv.dpi "100% (default)"
+adv.hints "On"
 adv.menukey 45
+adv.opacity 50
 adv.theme "Dark"
 bind 295 0
 con 2 599
