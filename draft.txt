@@ -307,6 +307,35 @@ AimWare V6中文教程
 
 
 暴力 - Ragebot
+    Mian
+        Enabled - 主开关
+
+        Silent Aim - 静默瞄准
+            无需准星瞄准人开火也能击中
+
+        Backtrack - 回溯
+
+        Anti-Recoil - 自动压枪
+
+        Anti-Spread - 强制无扩散
+            需关闭Secure Mode才能正常工作
+
+        Target Selection - 目标选择优先级
+            Lowest Health - 最低生命值
+            Closest Distance - 距离自身最近
+            Closest To Crosshair - 距离准星最近
+
+        FOV - 开火范围
+
+        Knifebot - 自动刀
+            Default - 默认
+            Only Backstab - 仅背刺
+            Quick Stab - 最快击杀
+            Off - 关闭
+
+        Duck Peek assist - 蹲起Peek
+            按住时自动蹲
+            如果敌人在站立时可击中, 自动站立
 
 
 最后更新：2025-11-07
