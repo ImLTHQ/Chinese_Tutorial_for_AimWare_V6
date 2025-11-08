@@ -6,7 +6,6 @@ adv.menukey 45
 adv.opacity 50
 adv.theme "Dark"
 bind 295 0
-con 335 529
 esp.enemy.ammo.anchor 1
 esp.enemy.ammo.clr1 255 255 255 255
 esp.enemy.ammo.clr2 255 255 255 255
