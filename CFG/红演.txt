@@ -356,7 +356,7 @@ lbot.weapon.aim.scout.smooth 20
 lbot.weapon.aim.scout.smoothtype "Dynamic"
 lbot.weapon.aim.shared.curve 0.25
 lbot.weapon.aim.shared.randomize 1
-lbot.weapon.aim.shared.smooth 5
+lbot.weapon.aim.shared.smooth 10
 lbot.weapon.aim.shared.smoothtype "Dynamic"
 lbot.weapon.aim.shotgun.curve 0.25
 lbot.weapon.aim.shotgun.randomize 0
