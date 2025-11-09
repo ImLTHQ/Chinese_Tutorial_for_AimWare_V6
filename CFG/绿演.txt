@@ -6,6 +6,7 @@ adv.menukey 45
 adv.opacity 50
 adv.theme "Dark"
 bind 295 0
+con 2 599
 esp.enemy.ammo.anchor 1
 esp.enemy.ammo.clr1 255 255 255 255
 esp.enemy.ammo.clr2 255 255 255 255
@@ -221,7 +222,7 @@ lbot.aim.hitbox.zeus.hitbox 3 2 0 1 0 0 0 0
 lbot.aim.hitbox.zeus.hitboxstep 1.5
 lbot.aim.hitbox.zeus.nearest "On"
 lbot.aim.key 1
-lbot.master "On"
+lbot.master "Off"
 lbot.trg.autofire "Off"
 lbot.trg.enable "Off"
 lbot.trg.hitbox "Shared"
@@ -456,18 +457,18 @@ lua.savecfg "Off"
 menu 522 247
 misc.antiobs "On"
 misc.autoaccept "On"
-misc.autojump "Legit"
+misc.autojump "Off"
 misc.autostrafe "Off"
 misc.chatspam "Off"
-misc.edgejump 69
+misc.edgejump 0
 misc.killfeed "On"
 misc.log.console "Off"
 misc.log.damage "Off"
 misc.log.purchases "Off"
 misc.master "On"
 misc.quickplant "Off"
-misc.quickstop "On"
-misc.securemode "On"
+misc.quickstop "Off"
+misc.securemode "Strict"
 misc.showspec "On"
 misc.slowkey 0
 misc.slowspeed 50
