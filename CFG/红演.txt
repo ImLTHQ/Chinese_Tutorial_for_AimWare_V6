@@ -6,6 +6,7 @@ adv.menukey 45
 adv.opacity 50
 adv.theme "Dark"
 bind 295 0
+con 2 599
 esp.enemy.ammo.anchor 1
 esp.enemy.ammo.clr1 255 255 255 255
 esp.enemy.ammo.clr2 255 255 255 255
@@ -205,7 +206,7 @@ lbot.aim.hitbox.rifle.nearest "On"
 lbot.aim.hitbox.scout.hitbox 1 1 1 1 1 1 1 1 
 lbot.aim.hitbox.scout.hitboxstep 4
 lbot.aim.hitbox.scout.nearest "On"
-lbot.aim.hitbox.shared.hitbox 4 1 1 1 1 1 1 1 
+lbot.aim.hitbox.shared.hitbox 4 0 0 0 0 0 0 0 
 lbot.aim.hitbox.shared.hitboxstep 4
 lbot.aim.hitbox.shared.nearest "Off"
 lbot.aim.hitbox.shotgun.hitbox 1 1 1 1 1 1 1 1 
@@ -220,7 +221,7 @@ lbot.aim.hitbox.sniper.nearest "On"
 lbot.aim.hitbox.zeus.hitbox 3 2 0 1 0 0 0 0 
 lbot.aim.hitbox.zeus.hitboxstep 1.5
 lbot.aim.hitbox.zeus.nearest "On"
-lbot.aim.key 1
+lbot.aim.key 6
 lbot.master "On"
 lbot.trg.autofire "On"
 lbot.trg.enable "On"
@@ -231,7 +232,7 @@ lbot.trg.hitbox.lmg.hitbox 1 1 0 1 0 0 0 0
 lbot.trg.hitbox.pistol.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.rifle.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.scout.hitbox 1 1 1 1 1 1 1 1 
-lbot.trg.hitbox.shared.hitbox 3 3 3 3 3 3 3 3 
+lbot.trg.hitbox.shared.hitbox 1 3 3 3 3 3 3 3 
 lbot.trg.hitbox.shotgun.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.smg.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.sniper.hitbox 1 1 0 1 0 0 0 0 
@@ -355,7 +356,7 @@ lbot.weapon.aim.scout.smooth 20
 lbot.weapon.aim.scout.smoothtype "Dynamic"
 lbot.weapon.aim.shared.curve 0.25
 lbot.weapon.aim.shared.randomize 1
-lbot.weapon.aim.shared.smooth 5
+lbot.weapon.aim.shared.smooth 2.5
 lbot.weapon.aim.shared.smoothtype "Dynamic"
 lbot.weapon.aim.shotgun.curve 0.25
 lbot.weapon.aim.shotgun.randomize 0
@@ -407,7 +408,7 @@ lbot.weapon.target.scout.tsd 0
 lbot.weapon.target.shared.fsd 0
 lbot.weapon.target.shared.maxfov 30
 lbot.weapon.target.shared.minfov 0
-lbot.weapon.target.shared.nst "Off"
+lbot.weapon.target.shared.nst "On"
 lbot.weapon.target.shared.tsd 0
 lbot.weapon.target.shotgun.fsd 0
 lbot.weapon.target.shotgun.maxfov 0
@@ -457,7 +458,7 @@ menu 522 247
 misc.antiobs "Off"
 misc.autoaccept "On"
 misc.autojump "Perfect"
-misc.autostrafe "On"
+misc.autostrafe "Off"
 misc.chatspam "Off"
 misc.edgejump 69
 misc.killfeed "On"
@@ -719,7 +720,7 @@ world.bullettracer.enemy "Off"
 world.bullettracer.enemy.clr 200 150 255 133
 world.bullettracer.friendly "Off"
 world.bullettracer.friendly.clr 0 255 255 133
-world.bullettracer.local "Off"
+world.bullettracer.local "On"
 world.bullettracer.local.clr 0 255 255 255
 world.crosshair "On"
 world.crosshair.clr 255 255 255 255
@@ -768,5 +769,7 @@ world.wallbanginfo.circle "Off"
 world.wallbanginfo.crosshair "Off"
 world.wallbanginfo.dmg "Off"
 unbindall
-bindhold "Mouse3" world.thirdperson "Off" "On" 0
+bindtoggle "Mouse3" world.thirdperson "Off" "On" 0
+bindhold "Mouse5" lbot.trg.hitbox.shared.hitbox "1 3 3 3 3 3 3 3" "3 3 3 3 3 3 3 3" 0
+bindhold "Space" misc.autostrafe "Off" "On" 0
 unalias
