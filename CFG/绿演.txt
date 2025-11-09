@@ -315,7 +315,7 @@ lbot.weapon.accuracy.scout.hrecoil 100
 lbot.weapon.accuracy.scout.rcs "Aiming and Standalone"
 lbot.weapon.accuracy.scout.vrecoil 100
 lbot.weapon.accuracy.shared.hrecoil 100
-lbot.weapon.accuracy.shared.rcs "Aiming"
+lbot.weapon.accuracy.shared.rcs "Aiming and Standalone"
 lbot.weapon.accuracy.shared.vrecoil 100
 lbot.weapon.accuracy.shotgun.hrecoil 0
 lbot.weapon.accuracy.shotgun.rcs "Off"
