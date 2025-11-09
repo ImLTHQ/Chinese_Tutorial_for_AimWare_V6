@@ -78,7 +78,7 @@ esp.enemy.weapon.filter.active "On"
 esp.enemy.weapon.filter.inventory "Off"
 esp.enemy.weapon.filter.nades "Off"
 esp.enemy.weapon.style "Icon"
-esp.local.armsmodel.visible "Glow"
+esp.local.armsmodel.visible "Off"
 esp.local.armsmodel.visible.clr 255 255 255 5
 esp.local.attachments.occluded "Off"
 esp.local.attachments.occluded.clr 200 150 255 80
@@ -88,7 +88,7 @@ esp.local.model.occluded "Off"
 esp.local.model.occluded.clr 0 255 255 80
 esp.local.model.visible "Off"
 esp.local.model.visible.clr 0 255 255 80
-esp.local.weaponmodel.visible "Glow"
+esp.local.weaponmodel.visible "Off"
 esp.local.weaponmodel.visible.clr 255 255 255 5
 esp.master "On"
 esp.team.ammo.anchor 1
@@ -761,7 +761,7 @@ world.recoilcrosshair.clr 200 150 255 255
 world.smoke "On"
 world.smoke.clr 255 255 255 133
 world.thirdperson "Off"
-world.thirdpersondist 150
+world.thirdpersondist 0
 world.viewmodelfov 55
 world.visualize "On"
 world.visualize.clr 255 0 0 255
