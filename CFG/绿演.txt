@@ -314,7 +314,7 @@ lbot.weapon.accuracy.rifle.vrecoil 100
 lbot.weapon.accuracy.scout.hrecoil 100
 lbot.weapon.accuracy.scout.rcs "Aiming and Standalone"
 lbot.weapon.accuracy.scout.vrecoil 100
-lbot.weapon.accuracy.shared.hrecoil 100
+lbot.weapon.accuracy.shared.hrecoil 50
 lbot.weapon.accuracy.shared.rcs "Aiming and Standalone"
 lbot.weapon.accuracy.shared.vrecoil 100
 lbot.weapon.accuracy.shotgun.hrecoil 0
@@ -395,7 +395,7 @@ lbot.weapon.target.pistol.maxfov 0
 lbot.weapon.target.pistol.minfov 0
 lbot.weapon.target.pistol.nst "Off"
 lbot.weapon.target.pistol.tsd 0
-lbot.weapon.target.rifle.fsd 0
+lbot.weapon.target.rifle.fsd 250
 lbot.weapon.target.rifle.maxfov 10
 lbot.weapon.target.rifle.minfov 0
 lbot.weapon.target.rifle.nst "Off"
