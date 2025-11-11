@@ -52,9 +52,9 @@ esp.enemy.health.num "On"
 esp.enemy.model.glow "Off"
 esp.enemy.model.glow.clr 255 255 255 133
 esp.enemy.model.occluded "Glow"
-esp.enemy.model.occluded.clr 200 150 255 80
+esp.enemy.model.occluded.clr 200 150 255 37
 esp.enemy.model.visible "Off"
-esp.enemy.model.visible.clr 200 150 255 80
+esp.enemy.model.visible.clr 200 150 255 37
 esp.enemy.money.anchor 3
 esp.enemy.money.clr1 116 235 52 255
 esp.enemy.money.enable "Off"
@@ -70,7 +70,7 @@ esp.enemy.ragdoll.visible "Off"
 esp.enemy.ragdoll.visible.clr 255 255 255 255
 esp.enemy.skeleton.clr1 255 255 255 255
 esp.enemy.skeleton.enable "Off"
-esp.enemy.weapon.anchor 0
+esp.enemy.weapon.anchor 1
 esp.enemy.weapon.clr1 255 255 255 255
 esp.enemy.weapon.clr2 231 50 46 255
 esp.enemy.weapon.enable "On"
@@ -274,7 +274,7 @@ lbot.trg.weapon.shared.accuracy.antirecoil "Off"
 lbot.trg.weapon.shared.accuracy.antispread "Off"
 lbot.trg.weapon.shared.burst 0
 lbot.trg.weapon.shared.delay 0
-lbot.trg.weapon.shared.hitchance 0
+lbot.trg.weapon.shared.hitchance 100
 lbot.trg.weapon.shotgun.accuracy.antirecoil "On"
 lbot.trg.weapon.shotgun.accuracy.antispread "On"
 lbot.trg.weapon.shotgun.burst 200
@@ -761,7 +761,7 @@ world.recoilcrosshair.clr 200 150 255 255
 world.smoke "On"
 world.smoke.clr 255 255 255 133
 world.thirdperson "Off"
-world.thirdpersondist 0
+world.thirdpersondist 150
 world.viewmodelfov 55
 world.visualize "On"
 world.visualize.clr 255 0 0 255
@@ -769,4 +769,6 @@ world.wallbanginfo.circle "Off"
 world.wallbanginfo.crosshair "Off"
 world.wallbanginfo.dmg "Off"
 unbindall
+bindhold "Mouse3" world.thirdperson "Off" "On" 0
+bindhold "Mouse5" world.crosshair "Off" "On" 0
 unalias
