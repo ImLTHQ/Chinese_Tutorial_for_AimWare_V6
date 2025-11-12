@@ -224,7 +224,7 @@ lbot.aim.hitbox.zeus.nearest "On"
 lbot.aim.key 1
 lbot.master "On"
 lbot.trg.autofire "Off"
-lbot.trg.enable "Off"
+lbot.trg.enable "On"
 lbot.trg.hitbox "Shared"
 lbot.trg.hitbox.asniper.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.hpistol.hitbox 1 1 0 1 0 0 0 0 
@@ -232,7 +232,7 @@ lbot.trg.hitbox.lmg.hitbox 1 1 0 1 0 0 0 0
 lbot.trg.hitbox.pistol.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.rifle.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.scout.hitbox 1 1 1 1 1 1 1 1 
-lbot.trg.hitbox.shared.hitbox 1 0 0 0 0 0 0 0 
+lbot.trg.hitbox.shared.hitbox 3 3 3 3 3 3 3 3 
 lbot.trg.hitbox.shotgun.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.smg.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.sniper.hitbox 1 1 0 1 0 0 0 0 
@@ -270,8 +270,8 @@ lbot.trg.weapon.scout.accuracy.antispread "On"
 lbot.trg.weapon.scout.burst 0
 lbot.trg.weapon.scout.delay 0
 lbot.trg.weapon.scout.hitchance 25
-lbot.trg.weapon.shared.accuracy.antirecoil "Off"
-lbot.trg.weapon.shared.accuracy.antispread "Off"
+lbot.trg.weapon.shared.accuracy.antirecoil "On"
+lbot.trg.weapon.shared.accuracy.antispread "On"
 lbot.trg.weapon.shared.burst 0
 lbot.trg.weapon.shared.delay 0
 lbot.trg.weapon.shared.hitchance 0
@@ -769,4 +769,5 @@ world.wallbanginfo.circle "Off"
 world.wallbanginfo.crosshair "Off"
 world.wallbanginfo.dmg "Off"
 unbindall
+bindtoggle "Capslock" world.crosshair "Off" "On" 0
 unalias
