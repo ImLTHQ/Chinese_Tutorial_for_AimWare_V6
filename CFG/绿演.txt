@@ -70,13 +70,13 @@ esp.enemy.ragdoll.visible "Off"
 esp.enemy.ragdoll.visible.clr 255 255 255 255
 esp.enemy.skeleton.clr1 255 255 255 255
 esp.enemy.skeleton.enable "Off"
-esp.enemy.weapon.anchor 1
+esp.enemy.weapon.anchor 3
 esp.enemy.weapon.clr1 255 255 255 255
 esp.enemy.weapon.clr2 231 50 46 255
 esp.enemy.weapon.enable "On"
 esp.enemy.weapon.filter.active "On"
-esp.enemy.weapon.filter.inventory "Off"
-esp.enemy.weapon.filter.nades "Off"
+esp.enemy.weapon.filter.inventory "On"
+esp.enemy.weapon.filter.nades "On"
 esp.enemy.weapon.style "Icon"
 esp.local.armsmodel.visible "Off"
 esp.local.armsmodel.visible.clr 255 255 255 5
@@ -232,7 +232,7 @@ lbot.trg.hitbox.lmg.hitbox 1 1 0 1 0 0 0 0
 lbot.trg.hitbox.pistol.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.rifle.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.scout.hitbox 1 1 1 1 1 1 1 1 
-lbot.trg.hitbox.shared.hitbox 2 2 2 2 2 2 2 2 
+lbot.trg.hitbox.shared.hitbox 1 0 0 0 0 0 0 0 
 lbot.trg.hitbox.shotgun.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.smg.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.sniper.hitbox 1 1 0 1 0 0 0 0 
@@ -270,11 +270,11 @@ lbot.trg.weapon.scout.accuracy.antispread "On"
 lbot.trg.weapon.scout.burst 0
 lbot.trg.weapon.scout.delay 0
 lbot.trg.weapon.scout.hitchance 25
-lbot.trg.weapon.shared.accuracy.antirecoil "On"
+lbot.trg.weapon.shared.accuracy.antirecoil "Off"
 lbot.trg.weapon.shared.accuracy.antispread "Off"
 lbot.trg.weapon.shared.burst 0
-lbot.trg.weapon.shared.delay 200
-lbot.trg.weapon.shared.hitchance 50
+lbot.trg.weapon.shared.delay 0
+lbot.trg.weapon.shared.hitchance 0
 lbot.trg.weapon.shotgun.accuracy.antirecoil "On"
 lbot.trg.weapon.shotgun.accuracy.antispread "On"
 lbot.trg.weapon.shotgun.burst 200
@@ -314,9 +314,9 @@ lbot.weapon.accuracy.rifle.vrecoil 100
 lbot.weapon.accuracy.scout.hrecoil 0
 lbot.weapon.accuracy.scout.rcs "Off"
 lbot.weapon.accuracy.scout.vrecoil 0
-lbot.weapon.accuracy.shared.hrecoil 100
+lbot.weapon.accuracy.shared.hrecoil 75
 lbot.weapon.accuracy.shared.rcs "Aiming and Standalone"
-lbot.weapon.accuracy.shared.vrecoil 100
+lbot.weapon.accuracy.shared.vrecoil 85
 lbot.weapon.accuracy.shotgun.hrecoil 0
 lbot.weapon.accuracy.shotgun.rcs "Aiming"
 lbot.weapon.accuracy.shotgun.vrecoil 100
@@ -405,11 +405,11 @@ lbot.weapon.target.scout.maxfov 2.5
 lbot.weapon.target.scout.minfov 0
 lbot.weapon.target.scout.nst "Off"
 lbot.weapon.target.scout.tsd 300
-lbot.weapon.target.shared.fsd 300
-lbot.weapon.target.shared.maxfov 10
+lbot.weapon.target.shared.fsd 0
+lbot.weapon.target.shared.maxfov 5
 lbot.weapon.target.shared.minfov 0
 lbot.weapon.target.shared.nst "Off"
-lbot.weapon.target.shared.tsd 300
+lbot.weapon.target.shared.tsd 200
 lbot.weapon.target.shotgun.fsd 300
 lbot.weapon.target.shotgun.maxfov 10
 lbot.weapon.target.shotgun.minfov 0
@@ -498,10 +498,10 @@ rbot.accuracy.scout.adaptivedamage "On"
 rbot.accuracy.scout.autowall "On"
 rbot.accuracy.scout.hitchance 50
 rbot.accuracy.scout.mindamage 101
-rbot.accuracy.shared.adaptivedamage "Off"
-rbot.accuracy.shared.autowall "Off"
-rbot.accuracy.shared.hitchance 0
-rbot.accuracy.shared.mindamage 1
+rbot.accuracy.shared.adaptivedamage "On"
+rbot.accuracy.shared.autowall "On"
+rbot.accuracy.shared.hitchance 100
+rbot.accuracy.shared.mindamage 130
 rbot.accuracy.shotgun.adaptivedamage "On"
 rbot.accuracy.shotgun.autowall "On"
 rbot.accuracy.shotgun.hitchance 50
@@ -527,8 +527,8 @@ rbot.antiaim.knife "On"
 rbot.antiaim.pitch "Down"
 rbot.antiaim.use "Off"
 rbot.antiaim.yaw "Backward"
-rbot.antirecoil "Off"
-rbot.antispread "Off"
+rbot.antirecoil "On"
+rbot.antispread "On"
 rbot.auto "Shared"
 rbot.auto.asniper.scopeopts.scope "On"
 rbot.auto.asniper.scopeopts.unscope "Off"
@@ -568,15 +568,15 @@ rbot.auto.scout.stopopts.duck "Off"
 rbot.auto.scout.stopopts.early "Off"
 rbot.auto.scout.stopopts.slowwalk "Off"
 rbot.auto.scout.stopopts.stop "On"
-rbot.auto.shared.fire.pistol "Off"
-rbot.auto.shared.fire.revolver "Off"
-rbot.auto.shared.scopeopts.scope "Off"
-rbot.auto.shared.scopeopts.unscope "Off"
+rbot.auto.shared.fire.pistol "On"
+rbot.auto.shared.fire.revolver "On"
+rbot.auto.shared.scopeopts.scope "On"
+rbot.auto.shared.scopeopts.unscope "On"
 rbot.auto.shared.stopopts.betweenshots "Off"
 rbot.auto.shared.stopopts.duck "Off"
-rbot.auto.shared.stopopts.early "Off"
+rbot.auto.shared.stopopts.early "On"
 rbot.auto.shared.stopopts.slowwalk "Off"
-rbot.auto.shared.stopopts.stop "Off"
+rbot.auto.shared.stopopts.stop "On"
 rbot.auto.shotgun.stopopts.betweenshots "Off"
 rbot.auto.shotgun.stopopts.duck "Off"
 rbot.auto.shotgun.stopopts.early "Off"
@@ -607,10 +607,10 @@ rbot.autopeek.peekind.clr2 255 0 0 255
 rbot.autopeek.peekkey 0
 rbot.autopeek.peekorigin "Off"
 rbot.autopeek.peektype "Hold"
-rbot.backtrack "Off"
-rbot.duckpeek 0
-rbot.enable "Off"
-rbot.fov 1
+rbot.backtrack "On"
+rbot.duckpeek 17
+rbot.enable "On"
+rbot.fov 180
 rbot.hitbox "Shared"
 rbot.hitbox.asniper.body.center "Off"
 rbot.hitbox.asniper.body.exposed "Off"
@@ -667,14 +667,14 @@ rbot.hitbox.scout.head.priority "On"
 rbot.hitbox.scout.limbs.center "Off"
 rbot.hitbox.scout.limbs.exposed "Off"
 rbot.hitbox.shared.body.center "Off"
-rbot.hitbox.shared.body.exposed "Off"
+rbot.hitbox.shared.body.exposed "On"
 rbot.hitbox.shared.body.lethal "Off"
 rbot.hitbox.shared.body.priority "Off"
 rbot.hitbox.shared.head.center "Off"
-rbot.hitbox.shared.head.exposed "Off"
+rbot.hitbox.shared.head.exposed "On"
 rbot.hitbox.shared.head.priority "Off"
 rbot.hitbox.shared.limbs.center "Off"
-rbot.hitbox.shared.limbs.exposed "Off"
+rbot.hitbox.shared.limbs.exposed "On"
 rbot.hitbox.shotgun.body.center "Off"
 rbot.hitbox.shotgun.body.exposed "Off"
 rbot.hitbox.shotgun.body.lethal "On"
@@ -714,7 +714,7 @@ rbot.hitbox.zeus.limbs.exposed "Off"
 rbot.knife "Quick Stab"
 rbot.master "Off"
 rbot.selection "Closest To Crosshair"
-rbot.silentaim "Off"
+rbot.silentaim "On"
 spectators 858 188
 world.bullettracer.enemy "Off"
 world.bullettracer.enemy.clr 200 150 255 133
