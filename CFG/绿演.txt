@@ -7,7 +7,7 @@ adv.opacity 50
 adv.theme "Dark"
 bind 295 0
 con 2 599
-esp.enemy.ammo.anchor 3
+esp.enemy.ammo.anchor 1
 esp.enemy.ammo.clr1 255 255 255 255
 esp.enemy.ammo.clr2 255 255 255 255
 esp.enemy.ammo.enable "On"
@@ -58,7 +58,7 @@ esp.enemy.model.visible.clr 200 150 255 37
 esp.enemy.money.anchor 3
 esp.enemy.money.clr1 116 235 52 255
 esp.enemy.money.enable "Off"
-esp.enemy.name.anchor 1
+esp.enemy.name.anchor 0
 esp.enemy.name.clr1 255 255 255 255
 esp.enemy.name.enable "On"
 esp.enemy.ping.anchor 3
@@ -70,13 +70,13 @@ esp.enemy.ragdoll.visible "Off"
 esp.enemy.ragdoll.visible.clr 255 255 255 255
 esp.enemy.skeleton.clr1 255 255 255 255
 esp.enemy.skeleton.enable "Off"
-esp.enemy.weapon.anchor 3
+esp.enemy.weapon.anchor 1
 esp.enemy.weapon.clr1 255 255 255 255
 esp.enemy.weapon.clr2 231 50 46 255
 esp.enemy.weapon.enable "On"
 esp.enemy.weapon.filter.active "On"
-esp.enemy.weapon.filter.inventory "On"
-esp.enemy.weapon.filter.nades "On"
+esp.enemy.weapon.filter.inventory "Off"
+esp.enemy.weapon.filter.nades "Off"
 esp.enemy.weapon.style "Icon"
 esp.local.armsmodel.visible "Off"
 esp.local.armsmodel.visible.clr 255 255 255 5
@@ -406,10 +406,10 @@ lbot.weapon.target.scout.minfov 0
 lbot.weapon.target.scout.nst "Off"
 lbot.weapon.target.scout.tsd 300
 lbot.weapon.target.shared.fsd 0
-lbot.weapon.target.shared.maxfov 5
+lbot.weapon.target.shared.maxfov 2.5
 lbot.weapon.target.shared.minfov 0
 lbot.weapon.target.shared.nst "Off"
-lbot.weapon.target.shared.tsd 200
+lbot.weapon.target.shared.tsd 250
 lbot.weapon.target.shotgun.fsd 300
 lbot.weapon.target.shotgun.maxfov 10
 lbot.weapon.target.shotgun.minfov 0
@@ -454,7 +454,7 @@ lbot.weapon.vis.sniper.smoke "Off"
 lbot.weapon.vis.zeus.autowall "Off"
 lbot.weapon.vis.zeus.smoke "Off"
 lua.savecfg "Off"
-menu 522 247
+menu 520 248
 misc.antiobs "On"
 misc.autoaccept "On"
 misc.autojump "Legit"
