@@ -51,7 +51,7 @@ esp.enemy.health.enable "On"
 esp.enemy.health.num "On"
 esp.enemy.model.glow "Off"
 esp.enemy.model.glow.clr 255 255 255 133
-esp.enemy.model.occluded "Glow"
+esp.enemy.model.occluded "Off"
 esp.enemy.model.occluded.clr 200 150 255 37
 esp.enemy.model.visible "Off"
 esp.enemy.model.visible.clr 200 150 255 37
@@ -69,7 +69,7 @@ esp.enemy.ragdoll.occluded.clr 255 255 255 255
 esp.enemy.ragdoll.visible "Off"
 esp.enemy.ragdoll.visible.clr 255 255 255 255
 esp.enemy.skeleton.clr1 255 255 255 255
-esp.enemy.skeleton.enable "Off"
+esp.enemy.skeleton.enable "On"
 esp.enemy.weapon.anchor 1
 esp.enemy.weapon.clr1 255 255 255 255
 esp.enemy.weapon.clr2 231 50 46 255
@@ -206,7 +206,7 @@ lbot.aim.hitbox.rifle.nearest "On"
 lbot.aim.hitbox.scout.hitbox 1 1 1 1 1 1 1 1 
 lbot.aim.hitbox.scout.hitboxstep 4
 lbot.aim.hitbox.scout.nearest "On"
-lbot.aim.hitbox.shared.hitbox 0 1 1 1 1 1 1 1 
+lbot.aim.hitbox.shared.hitbox 1 1 1 1 1 1 1 1 
 lbot.aim.hitbox.shared.hitboxstep 4
 lbot.aim.hitbox.shared.nearest "Off"
 lbot.aim.hitbox.shotgun.hitbox 1 1 1 1 1 1 1 1 
@@ -224,7 +224,7 @@ lbot.aim.hitbox.zeus.nearest "On"
 lbot.aim.key 1
 lbot.master "On"
 lbot.trg.autofire "Off"
-lbot.trg.enable "On"
+lbot.trg.enable "Off"
 lbot.trg.hitbox "Shared"
 lbot.trg.hitbox.asniper.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.hpistol.hitbox 1 1 0 1 0 0 0 0 
@@ -270,8 +270,8 @@ lbot.trg.weapon.scout.accuracy.antispread "On"
 lbot.trg.weapon.scout.burst 0
 lbot.trg.weapon.scout.delay 0
 lbot.trg.weapon.scout.hitchance 25
-lbot.trg.weapon.shared.accuracy.antirecoil "On"
-lbot.trg.weapon.shared.accuracy.antispread "On"
+lbot.trg.weapon.shared.accuracy.antirecoil "Off"
+lbot.trg.weapon.shared.accuracy.antispread "Off"
 lbot.trg.weapon.shared.burst 0
 lbot.trg.weapon.shared.delay 0
 lbot.trg.weapon.shared.hitchance 0
@@ -314,9 +314,9 @@ lbot.weapon.accuracy.rifle.vrecoil 100
 lbot.weapon.accuracy.scout.hrecoil 0
 lbot.weapon.accuracy.scout.rcs "Off"
 lbot.weapon.accuracy.scout.vrecoil 0
-lbot.weapon.accuracy.shared.hrecoil 75
+lbot.weapon.accuracy.shared.hrecoil 64
 lbot.weapon.accuracy.shared.rcs "Aiming and Standalone"
-lbot.weapon.accuracy.shared.vrecoil 85
+lbot.weapon.accuracy.shared.vrecoil 100
 lbot.weapon.accuracy.shotgun.hrecoil 0
 lbot.weapon.accuracy.shotgun.rcs "Aiming"
 lbot.weapon.accuracy.shotgun.vrecoil 100
@@ -354,8 +354,8 @@ lbot.weapon.aim.scout.curve 0.25
 lbot.weapon.aim.scout.randomize 0
 lbot.weapon.aim.scout.smooth 5
 lbot.weapon.aim.scout.smoothtype "Dynamic"
-lbot.weapon.aim.shared.curve 0.5
-lbot.weapon.aim.shared.randomize 2.5
+lbot.weapon.aim.shared.curve 0.25
+lbot.weapon.aim.shared.randomize 1
 lbot.weapon.aim.shared.smooth 10
 lbot.weapon.aim.shared.smoothtype "Dynamic"
 lbot.weapon.aim.shotgun.curve 0.25
@@ -409,7 +409,7 @@ lbot.weapon.target.shared.fsd 0
 lbot.weapon.target.shared.maxfov 2.5
 lbot.weapon.target.shared.minfov 0
 lbot.weapon.target.shared.nst "Off"
-lbot.weapon.target.shared.tsd 250
+lbot.weapon.target.shared.tsd 300
 lbot.weapon.target.shotgun.fsd 300
 lbot.weapon.target.shotgun.maxfov 10
 lbot.weapon.target.shotgun.minfov 0
