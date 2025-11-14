@@ -406,7 +406,7 @@ lbot.weapon.target.scout.minfov 0
 lbot.weapon.target.scout.nst "Off"
 lbot.weapon.target.scout.tsd 300
 lbot.weapon.target.shared.fsd 0
-lbot.weapon.target.shared.maxfov 2.5
+lbot.weapon.target.shared.maxfov 2
 lbot.weapon.target.shared.minfov 0
 lbot.weapon.target.shared.nst "Off"
 lbot.weapon.target.shared.tsd 300
