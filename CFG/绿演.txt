@@ -354,8 +354,8 @@ lbot.weapon.aim.scout.curve 0.25
 lbot.weapon.aim.scout.randomize 0
 lbot.weapon.aim.scout.smooth 5
 lbot.weapon.aim.scout.smoothtype "Dynamic"
-lbot.weapon.aim.shared.curve 0.25
-lbot.weapon.aim.shared.randomize 1
+lbot.weapon.aim.shared.curve 0.5
+lbot.weapon.aim.shared.randomize 2.5
 lbot.weapon.aim.shared.smooth 10
 lbot.weapon.aim.shared.smoothtype "Dynamic"
 lbot.weapon.aim.shotgun.curve 0.25
@@ -461,13 +461,13 @@ misc.autojump "Legit"
 misc.autostrafe "Off"
 misc.chatspam "Off"
 misc.edgejump 69
-misc.killfeed "On"
+misc.killfeed "Off"
 misc.log.console "Off"
 misc.log.damage "Off"
 misc.log.purchases "Off"
 misc.master "On"
 misc.quickplant "Off"
-misc.quickstop "On"
+misc.quickstop "Off"
 misc.securemode "On"
 misc.showspec "On"
 misc.slowkey 0
