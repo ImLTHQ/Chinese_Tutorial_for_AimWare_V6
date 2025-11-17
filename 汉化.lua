@@ -22,4 +22,12 @@ NM(RF("Legitbot"),"合法")
             NM(RF("合法", "扳机", "主要", "Auto Fire"),"自动开火")
             NM(RF("合法", "扳机", "主要", "Knife Triggerbot"),"刀扳机")
         NM(RF("合法", "扳机", "Weapon"),"武器")
+            for i = 1, 11, 1 do
+                NM(RF("合法", "扳机", "武器", WeaponList[i], "Trigger Delay"),"扳机延迟")
+                NM(RF("合法", "扳机", "武器", WeaponList[i], "Trigger Burst"),"扳机连发")
+                NM(RF("合法", "扳机", "武器", WeaponList[i], "Hit Chance"),"命中率")
+                NM(RF("合法", "扳机", "武器", WeaponList[i], "Accuracy"),"精准度")
+                NM(RF("合法", "扳机", "武器", WeaponList[i], "精准度", "Anti-Recoil"),"反后座")
+                NM(RF("合法", "扳机", "武器", WeaponList[i], "精准度", "Anti-Spread"),"反扩散")
+            end
     NM(RF("合法", "Weapon"),"武器")
