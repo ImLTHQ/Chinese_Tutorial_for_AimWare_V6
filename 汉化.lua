@@ -16,4 +16,7 @@ NM(RF("Legitbot"),"合法")
                 NM(RF("合法", "自瞄", "自瞄部位选择", WeaponList[i], "Nearest To Crosshair"),"准星附近优先")
             end
     NM(RF("合法", "Triggerbot"),"扳机")
+        NM(RF("合法", "扳机", "Main"),"主要")
+            NM(RF("合法", "扳机", "主要", "Enable"),"启用")
+            NM(RF("合法", "扳机", "主要", "Trigger Key"),"热键")
     NM(RF("合法", "Weapon"),"武器")
