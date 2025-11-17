@@ -46,3 +46,10 @@ NM(RF("Legitbot"),"合法")
                 NM(RF("合法", "武器", "目标", WeaponList[i], "Target Switch Delay"),"目标切换延迟")
                 NM(RF("合法", "武器", "目标", WeaponList[i], "First Shot Delay"),"首次射击延迟")
             end
+        NM(RF("合法", "武器", "Aiming"),"瞄准")
+            for i = 1, 11, 1 do
+                NM(RF("合法", "武器", "瞄准", WeaponList[i], "Smooth Factor"),"平滑因子")
+                NM(RF("合法", "武器", "瞄准", WeaponList[i], "Smooth Method"),"平滑方式")
+                NM(RF("合法", "武器", "瞄准", WeaponList[i], "Randomize Factor"),"随机因子")
+                NM(RF("合法", "武器", "瞄准", WeaponList[i], "Curve Factor"),"曲线因子")
+            end
