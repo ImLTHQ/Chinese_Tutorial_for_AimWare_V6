@@ -13,7 +13,8 @@ NM(RF("Legitbot"),"合法")
             NM(RF("合法", "自瞄", "主要", "Auto Pistol Interval"),"自动手枪间隔")
         NM(RF("合法", "自瞄", "Hitbox Selection"),"自瞄部位选择")
             for i = 1, 11, 1 do
-                NM(RF("合法","自瞄","自瞄部位选择",WeaponListEN[i]),WeaponListCN[i])
+                NM(RF("合法", "自瞄", "自瞄部位选择", WeaponListEN[i], "Hitbox Advance Multiplier"),"自瞄部位切换速度")
+                NM(RF("合法", "自瞄", "自瞄部位选择", WeaponListEN[i], "Nearest To Crosshair"),"准星附近优先")
             end
     NM(RF("合法", "Triggerbot"),"扳机")
     NM(RF("合法", "Weapon"),"武器")
