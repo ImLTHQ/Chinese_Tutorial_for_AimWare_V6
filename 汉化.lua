@@ -17,6 +17,7 @@ NM(RF("Lua Scripts"),"Lua脚本")
         NM(RF("Lua脚本", "安全", "Allow insecure FFI"),"允许不安全的FFI")
         NM(RF("Lua脚本", "安全", "Save Lua Permissions"),"保存Lua权限")
     NM(RF("Lua脚本", "Other"),"其它")
+        NM(RF("Lua脚本", "其它", "Load With Configurations"),"随参数一同加载")
 
 NM(RF("Legitbot"),"合法")
     NM(RF("合法", "Aimbot"),"自瞄")
