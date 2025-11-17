@@ -38,7 +38,7 @@ local Sorry = {
     "感谢您成为我游戏生涯中的一个小插曲",
 }
 
-local say_delay = 1
+local say_delay = 2
 local current_index = 1
 local last_say_time = 0
 
