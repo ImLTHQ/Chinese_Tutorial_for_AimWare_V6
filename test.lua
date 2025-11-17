@@ -1,2 +1,11 @@
-local FindName = gui.Reference("合法", "自瞄", "自瞄部位选择")
+local FindName = gui.Reference("Legitbot")
 print(FindName:GetName())
+
+local function PrintChildren(obj, prefix)
+    print(prefix .. obj:GetName());
+    for child in obj:Children() do
+        PrintChildren(child, prefix .. "\t");
+    end
+end
+
+PrintChildren(gui.Reference("MENU"), "");
