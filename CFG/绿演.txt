@@ -90,7 +90,7 @@ esp.local.model.visible "Off"
 esp.local.model.visible.clr 0 255 255 80
 esp.local.weaponmodel.visible "Off"
 esp.local.weaponmodel.visible.clr 255 255 255 5
-esp.master "On"
+esp.master "Off"
 esp.team.ammo.anchor 1
 esp.team.ammo.clr1 0 136 236 255
 esp.team.ammo.clr2 0 83 166 255
@@ -354,8 +354,8 @@ lbot.weapon.aim.scout.curve 0.25
 lbot.weapon.aim.scout.randomize 0
 lbot.weapon.aim.scout.smooth 5
 lbot.weapon.aim.scout.smoothtype "Dynamic"
-lbot.weapon.aim.shared.curve 0.25
-lbot.weapon.aim.shared.randomize 1
+lbot.weapon.aim.shared.curve 0.5
+lbot.weapon.aim.shared.randomize 2.5
 lbot.weapon.aim.shared.smooth 10
 lbot.weapon.aim.shared.smoothtype "Dynamic"
 lbot.weapon.aim.shotgun.curve 0.25
@@ -408,8 +408,8 @@ lbot.weapon.target.scout.tsd 300
 lbot.weapon.target.shared.fsd 0
 lbot.weapon.target.shared.maxfov 2
 lbot.weapon.target.shared.minfov 0
-lbot.weapon.target.shared.nst "Off"
-lbot.weapon.target.shared.tsd 300
+lbot.weapon.target.shared.nst "On"
+lbot.weapon.target.shared.tsd 250
 lbot.weapon.target.shotgun.fsd 300
 lbot.weapon.target.shotgun.maxfov 10
 lbot.weapon.target.shotgun.minfov 0
@@ -729,11 +729,11 @@ world.fov 90
 world.hiteffects.marker "Off"
 world.hiteffects.sound "Off"
 world.inferno.enemy "On"
-world.inferno.enemy.clr 255 0 0 133
+world.inferno.enemy.clr 255 0 0 255
 world.inferno.friendly "On"
-world.inferno.friendly.clr 255 0 0 133
+world.inferno.friendly.clr 255 0 0 255
 world.inferno.local "On"
-world.inferno.local.clr 255 0 0 133
+world.inferno.local.clr 255 0 0 255
 world.master "On"
 world.nadetracer.enemy "On"
 world.nadetracer.enemy.clr 255 255 255 255
