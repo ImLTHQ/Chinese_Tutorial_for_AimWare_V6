@@ -295,7 +295,7 @@ lbot.trg.weapon.zeus.accuracy.antispread "On"
 lbot.trg.weapon.zeus.burst 200
 lbot.trg.weapon.zeus.delay 0
 lbot.trg.weapon.zeus.hitchance 50
-lbot.weapon.accuracy "Heavy Pistol"
+lbot.weapon.accuracy "Zeus"
 lbot.weapon.accuracy.asniper.hrecoil 64
 lbot.weapon.accuracy.asniper.rcs "Aiming and Standalone"
 lbot.weapon.accuracy.asniper.vrecoil 80
