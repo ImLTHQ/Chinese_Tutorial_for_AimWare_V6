@@ -1,4 +1,3 @@
-local WeaponListCN={"通用","电击枪","手枪","沙鹰与R8","冲锋枪","步枪","散弹枪","鸟狙","连狙","大狙","机枪"}
 local WeaponListEN={"Shared","Zeus","Pistol","Heavy Pistol","Submachine Gun","Rifle","Shotgun","Scout","Auto Sniper","Sniper","Light Machine Gun"}
 
 local RF=gui.Reference
