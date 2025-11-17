@@ -38,3 +38,11 @@ NM(RF("Legitbot"),"合法")
                 NM(RF("合法", "武器","压枪", WeaponList[i], "Horizontal Recoil"),"横向压枪")
                 NM(RF("合法", "武器","压枪", WeaponList[i], "Vertical Recoil"),"纵向压枪")
             end
+        NM(RF("合法", "武器", "Target"),"目标")
+            for i = 1, 11, 1 do
+                NM(RF("合法", "武器", "目标", WeaponList[i], "Minimum FOV Range"),"最小范围")
+                NM(RF("合法", "武器", "目标", WeaponList[i], "Maximum FOV Range"),"最大范围")
+                NM(RF("合法", "武器", "目标", WeaponList[i], "Non-Sticky Target"),"超过范围不锁定")
+                NM(RF("合法", "武器", "目标", WeaponList[i], "Target Switch Delay"),"目标切换延迟")
+                NM(RF("合法", "武器", "目标", WeaponList[i], "First Shot Delay"),"首射延迟")
+            end
