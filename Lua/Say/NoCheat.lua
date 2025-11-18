@@ -38,7 +38,7 @@ local text = {
     "#填补 #精准 #闪耀",
 }
 
-local say_delay = 1
+local say_delay = 3
 local current_index = 1
 local last_say_time = 0
 
