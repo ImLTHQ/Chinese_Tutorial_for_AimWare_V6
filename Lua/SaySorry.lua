@@ -1,4 +1,4 @@
-local Sorry = {
+local text = {
     "我曾经带领车队一天死了 100 个号",
     "我开挂了, 我承认错误",
     "请别和我一样使用外挂",
@@ -46,10 +46,10 @@ local function SayNext()
     local current_time = globals.CurTime()
     
     if current_time - last_say_time >= say_delay then
-        client.ChatSay(Sorry[current_index])
+        client.ChatSay(text[current_index])
         current_index = current_index + 1
 
-        if current_index > #Sorry then
+        if current_index > #text then
             current_index = 1
         end
         

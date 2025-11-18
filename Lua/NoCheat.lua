@@ -1,4 +1,4 @@
-local NoCheat = {
+local text = {
     "高刷显示器",
     "广州打外地",
     "高敏手感好",
@@ -46,10 +46,10 @@ local function SayNext()
     local current_time = globals.CurTime()
     
     if current_time - last_say_time >= say_delay then
-        client.ChatSay(NoCheat[current_index])
+        client.ChatSay(text[current_index])
         current_index = current_index + 1
 
-        if current_index > #NoCheat then
+        if current_index > #text then
             current_index = 1
         end
         
