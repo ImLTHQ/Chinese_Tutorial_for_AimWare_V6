@@ -50,7 +50,7 @@ NM(RF("Legitbot"),"合法")
         NM(RF("合法", "武器", "Accuracy"),"压枪")
             for i = 1, 11, 1 do
                 NM(RF("合法", "武器","压枪", WeaponList[i], "Recoil Control System"),"压枪模式")
-                    RF("合法", "武器","压枪", WeaponList[i], "压枪时机"):SetOptions("关闭","自瞄时","独立")
+                    RF("合法", "武器","压枪", WeaponList[i], "压枪模式"):SetOptions("关闭","自瞄时","独立")
                 NM(RF("合法", "武器","压枪", WeaponList[i], "Horizontal Recoil"),"横向压枪")
                 NM(RF("合法", "武器","压枪", WeaponList[i], "Vertical Recoil"),"纵向压枪")
             end
