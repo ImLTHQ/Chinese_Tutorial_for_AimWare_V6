@@ -50,7 +50,8 @@ local function SayNext()
         current_index = current_index + 1
 
         if current_index > #text then
-            current_index = 1
+            callbacks.Unregister("Draw", SayNext)
+            return
         end
         
         last_say_time = current_time
