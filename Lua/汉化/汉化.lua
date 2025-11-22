@@ -125,17 +125,21 @@ NM(RF("Ragebot"),"暴力")
             NM(RF("暴力", "部位", WeaponList[i], "Limbs", "Center"),"中心")
         end
     NM(RF("暴力", "Automate"),"自动操作")
-        for i = 1, 11, 1 do
-            NM(RF("暴力", "自动操作", WeaponList[i], "Auto Fire", "Auto Pistol"),"自动手枪")
-            NM(RF("暴力", "自动操作", WeaponList[i], "Auto Fire", "Auto Revolver"),"自动左轮")
-            NM(RF("暴力", "自动操作", WeaponList[i], "Auto Scope", "Scope"),"自动开镜")
-            NM(RF("暴力", "自动操作", WeaponList[i], "Auto Scope", "Unscope"),"自动关镜")
-            NM(RF("暴力", "自动操作", WeaponList[i], "Auto Stop", "Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", WeaponList[i], "Auto Stop", "Slow Walk"),"自动慢走")
-            NM(RF("暴力", "自动操作", WeaponList[i], "Auto Stop", "Duck"),"自动蹲下")
-            NM(RF("暴力", "自动操作", WeaponList[i], "Auto Stop", "Early"),"提前急停")
-            NM(RF("暴力", "自动操作", WeaponList[i], "Auto Stop", "Between Shots"),"射击间隙急停")
-        end
+        NM(RF("暴力", "自动操作", "Auto Fire"),"自动开火")
+            NM(RF("暴力", "自动操作", "自动开火", "Auto Pistol"),"自动手枪")
+            NM(RF("暴力", "自动操作", "自动开火", "Auto Revolver"),"自动左轮")
 
+        NM(RF("暴力", "自动操作", "Auto Scope"),"自动开镜")
+            NM(RF("暴力", "自动操作", "自动开镜", "Scope"),"自动开镜")
+            NM(RF("暴力", "自动操作", "自动开镜", "Unscope"),"自动关镜")
+
+        for i = 1, 11, 1 do
+            NM(RF("暴力", "自动操作", WeaponList[i], "Auto Stop"),"自动急停")
+            NM(RF("暴力", "自动操作", WeaponList[i], "自动急停", "Stop"),"自动急停")
+            NM(RF("暴力", "自动操作", WeaponList[i], "自动急停", "Slow Walk"),"自动慢走")
+            NM(RF("暴力", "自动操作", WeaponList[i], "自动急停", "Duck"),"自动蹲下")
+            NM(RF("暴力", "自动操作", WeaponList[i], "自动急停", "Early"),"提前急停")
+            NM(RF("暴力", "自动操作", WeaponList[i], "自动急停", "Between Shots"),"射击间隙急停")
+        end
 
 print("汉化已加载, 请勿重复加载脚本")
