@@ -217,7 +217,7 @@ NM(RF("Ragebot"),"暴力")
             NM(RF("暴力", "自动", "Sniper", "自动急停", "Duck"),"蹲下")
             NM(RF("暴力", "自动", "Sniper", "自动急停", "Early"),"提前")
             NM(RF("暴力", "自动", "Sniper", "自动急停", "Between Shots"),"射击间隙")
-        -- Light Machine Gun (只有 Auto Stop)
+        -- Light Machine Gun
         NM(RF("暴力", "自动", "Light Machine Gun", "Auto Stop"),"自动急停")
             NM(RF("暴力", "自动", "Light Machine Gun", "自动急停", "Stop"),"急停")
             NM(RF("暴力", "自动", "Light Machine Gun", "自动急停", "Slow Walk"),"慢走")
