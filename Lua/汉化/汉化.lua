@@ -84,17 +84,17 @@ NM(RF("Ragebot"),"暴力")
         NM(RF("暴力", "主要", "Anti-Recoil"),"无后座")
         NM(RF("暴力", "主要", "Anti-Spread"),"无扩散")
         NM(RF("暴力", "主要", "Target Selection"),"目标选择")
-            RF("暴力", "主要", "目标选择"):SetOptions("最低血量", "距离最近", "准星最近");
+            RF("暴力", "主要", "目标选择"):SetOptions("最低血量", "距离最近", "准星最近")
         NM(RF("暴力", "主要", "FOV"),"范围")
         NM(RF("暴力", "主要", "Knifebot"),"自动刀")
-            RF("暴力", "主要", "自动刀"):SetOptions("关闭","默认","仅背刺","快速刀");
+            RF("暴力", "主要", "自动刀"):SetOptions("关闭","默认","仅背刺","快速刀")
         NM(RF("暴力", "主要", "Duck Peek assist"),"假蹲")
     NM(RF("暴力", "Anti-Aim"),"反自瞄")
         NM(RF("暴力", "反自瞄", "Enabled"),"启用")
         NM(RF("暴力", "反自瞄", "Pitch Angle"),"俯仰角度")
-            RF("暴力", "反自瞄", "俯仰角度"):SetOptions("关闭","低头","抬头","假抬头","平视");
+            RF("暴力", "反自瞄", "俯仰角度"):SetOptions("关闭","低头","抬头","假抬头","平视")
         NM(RF("暴力", "反自瞄", "Yaw Angle"),"偏航角度")
-            RF("暴力", "反自瞄", "偏航角度"):SetOptions("朝前","背身");
+            RF("暴力", "反自瞄", "偏航角度"):SetOptions("朝前","背身")
         NM(RF("暴力", "反自瞄", "Auto Direction"),"自动朝向")
             NM(RF("暴力", "反自瞄", "自动朝向", "At Edges"),"墙边藏头")
             NM(RF("暴力", "反自瞄", "自动朝向", "At Targets"),"朝向目标")
@@ -108,7 +108,7 @@ NM(RF("Ragebot"),"暴力")
         NM(RF("暴力", "自动Peek", "Key"),"热键")
         NM(RF("暴力", "自动Peek", "Show indicator"),"显示指示器")
         NM(RF("暴力", "自动Peek", "Type"),"模式")
-            RF("暴力", "自动Peek", "模式"):SetOptions("按住","切换");
+            RF("暴力", "自动Peek", "模式"):SetOptions("按住","切换")
         NM(RF("暴力", "自动Peek", "Maintain Origin"),"复位")
     NM(RF("暴力", "Accuracy"),"数值")
         for i = 1, 11, 1 do
