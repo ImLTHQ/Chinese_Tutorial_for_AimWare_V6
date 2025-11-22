@@ -41,6 +41,7 @@ local text = {
 local say_delay = 3
 local current_index = 1
 local last_say_time = 0
+local all_messages_sent = false
 
 local function SayNext()
     local current_time = globals.CurTime()
@@ -50,7 +51,8 @@ local function SayNext()
         current_index = current_index + 1
 
         if current_index > #text then
-            current_index = 1
+            all_messages_sent = true
+            UnloadScript("NoCheat.lua")
         end
         
         last_say_time = current_time
