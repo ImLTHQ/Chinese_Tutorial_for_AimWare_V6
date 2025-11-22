@@ -74,6 +74,8 @@ NM(RF("Legitbot"),"合法")
                 NM(RF("合法", "武器", "可见性", WeaponList[i], "Through Smoke"),"穿烟")
             end
 
+--  需要测试
+
 NM(RF("Ragebot"),"暴力")
     NM(RF("暴力", "Main"),"主要")
         NM(RF("暴力", "主要", "Enabled"),"启用")
